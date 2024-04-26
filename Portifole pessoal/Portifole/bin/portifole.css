@@ -1,0 +1,102 @@
+/* Reset de margin e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a0b4e; /* Cor de fundo mais clara */
+    color: #f0e5e5; /* Cor do texto mais escura */
+    line-height: 1.6;
+}
+
+/* Estilo para o container principal */
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Estilo para o container da bio */
+#bio-container {
+    max-width: 300px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#bio-image {
+    border-radius: 50%;
+    max-width: 200px;
+    margin: 20px auto;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+/* Estilo para as redes sociais */
+#social-container {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#social-container li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#social-container a {
+    color: #f0e5e5; /* Cor dos ícones de redes sociais mais suave */
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#email-container {
+    margin-top: 20px;
+}
+
+/* Estilo para a seção sobre */
+#about-container {
+    max-width: 600px;
+}
+
+/* Estilo para o título das skills */
+#skills-section-title {
+    margin-top: 40px;
+    font-size: 24px; /* Tamanho maior para o título das skills */
+    color: #f0e5e5; /* Cor do texto mais escura */
+}
+
+/* Estilo para os ícones de skills */
+.skills-box {
+    display: inline-block;
+    margin: 10px;
+}
+
+.skills-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    color: #f0e5e5; /* Cor do texto mais escura */
+}
+
+/* Estilo para o botão de projetos */
+#btn-projects {
+    display: inline-block;
+    background-color: #007bff; /* Azul */
+    color: #f0e5e5;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px; /* Tamanho de fonte maior para o botão */
+}
+
+#btn-projects:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}

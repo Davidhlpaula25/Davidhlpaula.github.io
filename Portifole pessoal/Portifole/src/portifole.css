@@ -1,0 +1,123 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a0b4e;
+    color: #f0e5e5;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+/* Bio container */
+#bio-container {
+    flex: 0 1 45%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#bio-image {
+    border-radius: 50%;
+    max-width: 200px;
+    margin: 20px auto;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+/* Social container */
+#social-container {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#social-container li {
+    margin: 0 5px;
+}
+
+/* Email container */
+#email-container {
+    margin-top: 20px;
+}
+
+/* Email link */
+.email-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f0e5e5;
+}
+
+.email-text {
+    margin-left: 5px;
+}
+
+/* About container */
+#about-container {
+    flex: 0 1 45%;
+    margin-left: 20px; /* Ajuste de margem para separar os containers */
+}
+
+/* Skills section title */
+#skills-section-title {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #f0e5e5;
+}
+
+/* Skills box */
+.skills-box {
+    display: flex;
+   flex-direction: row;
+    align-items: start;
+    margin: 10px;
+
+}
+
+/* Skills title */
+.skills-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #f0e5e5;
+}
+
+/* Button projects */
+#btn-projects {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: #f0e5e5;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#btn-projects:hover {
+    background-color: #0056b3;
+}
+.skills-box i {
+    font-size: 70px; 
+}
+.skills-box p{
+    padding: 15px;
+}
